@@ -1,0 +1,426 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'functional-javascript-workshop@latest' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose cache add [ 'functional-javascript-workshop@latest', null ]
+5 verbose cache add name=undefined spec="functional-javascript-workshop@latest" args=["functional-javascript-workshop@latest",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'functional-javascript-workshop@latest',
+6 verbose parsed url   path: 'functional-javascript-workshop@latest',
+6 verbose parsed url   href: 'functional-javascript-workshop@latest' }
+7 verbose cache add name="functional-javascript-workshop" spec="latest" args=["functional-javascript-workshop","latest"]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'latest',
+8 verbose parsed url   path: 'latest',
+8 verbose parsed url   href: 'latest' }
+9 verbose addNamed [ 'functional-javascript-workshop', 'latest' ]
+10 verbose addNamed [ null, null ]
+11 silly lockFile 47ac7295-ional-javascript-workshop-latest functional-javascript-workshop@latest
+12 verbose lock functional-javascript-workshop@latest /home/jrt/.npm/47ac7295-ional-javascript-workshop-latest.lock
+13 info addNameTag [ 'functional-javascript-workshop', 'latest' ]
+14 verbose url raw functional-javascript-workshop
+15 verbose url resolving [ 'https://registry.npmjs.org/',
+15 verbose url resolving   './functional-javascript-workshop' ]
+16 verbose url resolved https://registry.npmjs.org/functional-javascript-workshop
+17 info trying registry request attempt 1 at 13:17:36
+18 http GET https://registry.npmjs.org/functional-javascript-workshop
+19 http 200 https://registry.npmjs.org/functional-javascript-workshop
+20 silly registry.get cb [ 200,
+20 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+20 silly registry.get     etag: '"B3UT4A5367HFWAEEZEN7SDTXO"',
+20 silly registry.get     'content-type': 'application/json',
+20 silly registry.get     'cache-control': 'max-age=60',
+20 silly registry.get     'content-length': '36281',
+20 silly registry.get     'accept-ranges': 'bytes',
+20 silly registry.get     date: 'Wed, 02 Dec 2015 12:17:36 GMT',
+20 silly registry.get     via: '1.1 varnish',
+20 silly registry.get     age: '10',
+20 silly registry.get     connection: 'keep-alive',
+20 silly registry.get     'x-served-by': 'cache-fra1237-FRA',
+20 silly registry.get     'x-cache': 'HIT',
+20 silly registry.get     'x-cache-hits': '1',
+20 silly registry.get     'x-timer': 'S1449058656.602714,VS0,VE0',
+20 silly registry.get     vary: 'Accept' } ]
+21 verbose addNamed [ 'functional-javascript-workshop', '1.0.5' ]
+22 verbose addNamed [ '1.0.5', '1.0.5' ]
+23 silly lockFile c4caac9f-tional-javascript-workshop-1-0-5 functional-javascript-workshop@1.0.5
+24 verbose lock functional-javascript-workshop@1.0.5 /home/jrt/.npm/c4caac9f-tional-javascript-workshop-1-0-5.lock
+25 silly lockFile 70455867-al-javascript-workshop-1-0-5-tgz https://registry.npmjs.org/functional-javascript-workshop/-/functional-javascript-workshop-1.0.5.tgz
+26 verbose lock https://registry.npmjs.org/functional-javascript-workshop/-/functional-javascript-workshop-1.0.5.tgz /home/jrt/.npm/70455867-al-javascript-workshop-1-0-5-tgz.lock
+27 verbose addRemoteTarball [ 'https://registry.npmjs.org/functional-javascript-workshop/-/functional-javascript-workshop-1.0.5.tgz',
+27 verbose addRemoteTarball   'ebbb1ce4befcb71a71cea089819140b90a65eac6' ]
+28 info retry fetch attempt 1 at 13:17:36
+29 verbose fetch to= /home/jrt/tmp/npm-28597-xSjMU-2u/1449058656919-0.6151421105023474/tmp.tgz
+30 http GET https://registry.npmjs.org/functional-javascript-workshop/-/functional-javascript-workshop-1.0.5.tgz
+31 http 200 https://registry.npmjs.org/functional-javascript-workshop/-/functional-javascript-workshop-1.0.5.tgz
+32 verbose tar unpack /home/jrt/tmp/npm-28597-xSjMU-2u/1449058656919-0.6151421105023474/tmp.tgz
+33 silly lockFile 77223de0-56919-0-6151421105023474-package tar:///home/jrt/tmp/npm-28597-xSjMU-2u/1449058656919-0.6151421105023474/package
+34 verbose lock tar:///home/jrt/tmp/npm-28597-xSjMU-2u/1449058656919-0.6151421105023474/package /home/jrt/.npm/77223de0-56919-0-6151421105023474-package.lock
+35 silly lockFile 83ecb8ac-56919-0-6151421105023474-tmp-tgz tar:///home/jrt/tmp/npm-28597-xSjMU-2u/1449058656919-0.6151421105023474/tmp.tgz
+36 verbose lock tar:///home/jrt/tmp/npm-28597-xSjMU-2u/1449058656919-0.6151421105023474/tmp.tgz /home/jrt/.npm/83ecb8ac-56919-0-6151421105023474-tmp-tgz.lock
+37 silly gunzTarPerm modes [ '755', '644' ]
+38 silly gunzTarPerm extractEntry package.json
+39 silly gunzTarPerm extractEntry .npmignore
+40 silly gunzTarPerm extractEntry input.js
+41 silly gunzTarPerm extractEntry functional-javascript.js
+42 silly gunzTarPerm extractEntry exercises/randomizer.js
+43 silly gunzTarPerm extractEntry exercises/runner.js
+44 silly gunzTarPerm extractEntry exercises/function_spies/exercise.js
+45 silly gunzTarPerm extractEntry exercises/function_spies/problem.fr.md
+46 silly gunzTarPerm extractEntry exercises/function_spies/problem.ko.md
+47 silly gunzTarPerm extractEntry exercises/function_spies/problem.md
+48 silly gunzTarPerm extractEntry exercises/function_spies/solution/solution.js
+49 silly gunzTarPerm extractEntry exercises/function_spies/solution_fr/solution.js
+50 silly gunzTarPerm extractEntry exercises/basic_filter/exercise.js
+51 silly gunzTarPerm extractEntry exercises/basic_filter/problem.fr.md
+52 silly gunzTarPerm extractEntry exercises/basic_filter/problem.ko.md
+53 silly gunzTarPerm extractEntry exercises/basic_filter/problem.md
+54 silly gunzTarPerm extractEntry exercises/basic_filter/solution/solution.js
+55 silly gunzTarPerm extractEntry exercises/basic_inheritance_with_objectcreate/exercise.js
+56 silly gunzTarPerm extractEntry exercises/basic_inheritance_with_objectcreate/problem.md
+57 silly gunzTarPerm extractEntry exercises/basic_inheritance_with_objectcreate/solution/solution.js
+58 silly gunzTarPerm extractEntry exercises/basic_inheritance_without_objectcreate/exercise.js
+59 silly gunzTarPerm extractEntry exercises/basic_inheritance_without_objectcreate/problem.md
+60 silly gunzTarPerm extractEntry exercises/basic_inheritance_without_objectcreate/solution/solution.js
+61 silly gunzTarPerm extractEntry exercises/basic_map/exercise.js
+62 silly gunzTarPerm extractEntry exercises/basic_map/problem.fr.md
+63 silly gunzTarPerm extractEntry exercises/basic_map/problem.ko.md
+64 silly gunzTarPerm extractEntry exercises/basic_map/problem.md
+65 silly gunzTarPerm extractEntry exercises/basic_map/solution/solution.js
+66 silly gunzTarPerm extractEntry exercises/basic_recursion/exercise.js
+67 silly gunzTarPerm extractEntry exercises/basic_recursion/problem.fr.md
+68 silly gunzTarPerm extractEntry exercises/basic_recursion/problem.ko.md
+69 silly gunzTarPerm extractEntry exercises/basic_recursion/problem.md
+70 silly gunzTarPerm extractEntry exercises/basic_recursion/solution/solution.js
+71 silly gunzTarPerm extractEntry exercises/basic_recursion/solution_fr/solution.js
+72 silly gunzTarPerm extractEntry exercises/basic_reduce/exercise.js
+73 silly gunzTarPerm extractEntry exercises/basic_reduce/problem.fr.md
+74 silly gunzTarPerm extractEntry exercises/basic_reduce/problem.ko.md
+75 silly gunzTarPerm extractEntry exercises/basic_reduce/problem.md
+76 silly gunzTarPerm extractEntry exercises/basic_reduce/solution/solution.js
+77 silly gunzTarPerm extractEntry exercises/basic_reduce/solution_fr/solution.js
+78 silly gunzTarPerm extractEntry exercises/blocking_event_loop/exercise.js
+79 silly gunzTarPerm extractEntry exercises/blocking_event_loop/wrapper.js
+80 silly gunzTarPerm extractEntry exercises/blocking_event_loop/wrapper_fr.js
+81 silly gunzTarPerm extractEntry exercises/blocking_event_loop/problem.fr.md
+82 silly gunzTarPerm extractEntry exercises/blocking_event_loop/problem.ko.md
+83 silly gunzTarPerm extractEntry exercises/blocking_event_loop/problem.md
+84 silly gunzTarPerm extractEntry exercises/blocking_event_loop/solution/solution.js
+85 silly gunzTarPerm extractEntry exercises/blocking_event_loop/solution_fr/solution.js
+86 silly gunzTarPerm extractEntry exercises/currying/exercise.js
+87 silly gunzTarPerm extractEntry exercises/currying/problem.fr.md
+88 silly gunzTarPerm extractEntry exercises/currying/problem.ko.md
+89 silly gunzTarPerm extractEntry exercises/currying/problem.md
+90 silly gunzTarPerm extractEntry exercises/currying/solution/solution.js
+91 silly gunzTarPerm extractEntry exercises/currying/solution_fr/solution.js
+92 silly gunzTarPerm extractEntry exercises/function_call/exercise.js
+93 silly gunzTarPerm extractEntry exercises/function_call/problem.fr.md
+94 silly gunzTarPerm extractEntry exercises/function_call/problem.ko.md
+95 silly gunzTarPerm extractEntry exercises/function_call/problem.md
+96 silly gunzTarPerm extractEntry exercises/function_call/solution/solution.js
+97 silly gunzTarPerm extractEntry exercises/function_call/solution_fr/solution.js
+98 silly gunzTarPerm extractEntry exercises/basic_call/exercise.js
+99 silly gunzTarPerm extractEntry exercises/basic_call/problem.fr.md
+100 silly gunzTarPerm extractEntry exercises/basic_call/problem.ko.md
+101 silly gunzTarPerm extractEntry exercises/basic_call/problem.md
+102 silly gunzTarPerm extractEntry exercises/basic_call/solution/solution.js
+103 silly gunzTarPerm extractEntry exercises/hello_world/exercise.js
+104 silly gunzTarPerm extractEntry exercises/hello_world/problem.fr.md
+105 silly gunzTarPerm extractEntry exercises/hello_world/problem.ko.md
+106 silly gunzTarPerm extractEntry exercises/hello_world/problem.md
+107 silly gunzTarPerm extractEntry exercises/hello_world/solution/solution.js
+108 silly gunzTarPerm extractEntry exercises/higher_order_functions/exercise.js
+109 silly gunzTarPerm extractEntry exercises/higher_order_functions/problem.fr.md
+110 silly gunzTarPerm extractEntry exercises/higher_order_functions/problem.ko.md
+111 silly gunzTarPerm extractEntry exercises/higher_order_functions/problem.md
+112 silly gunzTarPerm extractEntry exercises/higher_order_functions/solution/solution.js
+113 silly gunzTarPerm extractEntry exercises/implement_map_with_reduce/exercise.js
+114 silly gunzTarPerm extractEntry exercises/implement_map_with_reduce/problem.fr.md
+115 silly gunzTarPerm extractEntry exercises/implement_map_with_reduce/problem.ko.md
+116 silly gunzTarPerm extractEntry exercises/implement_map_with_reduce/problem.md
+117 silly gunzTarPerm extractEntry exercises/implement_map_with_reduce/solution/solution.js
+118 silly gunzTarPerm extractEntry exercises/menu.json
+119 silly gunzTarPerm extractEntry exercises/partial_application_with_bind/exercise.js
+120 silly gunzTarPerm extractEntry exercises/partial_application_with_bind/wrapper.js
+121 silly gunzTarPerm extractEntry exercises/partial_application_with_bind/problem.fr.md
+122 silly gunzTarPerm extractEntry exercises/partial_application_with_bind/problem.ko.md
+123 silly gunzTarPerm extractEntry exercises/partial_application_with_bind/problem.md
+124 silly gunzTarPerm extractEntry exercises/partial_application_with_bind/solution/solution.js
+125 silly gunzTarPerm extractEntry exercises/partial_application_without_bind/exercise.js
+126 silly gunzTarPerm extractEntry exercises/partial_application_without_bind/wrapper.js
+127 silly gunzTarPerm extractEntry exercises/partial_application_without_bind/problem.fr.md
+128 silly gunzTarPerm extractEntry exercises/partial_application_without_bind/problem.ko.md
+129 silly gunzTarPerm extractEntry exercises/partial_application_without_bind/problem.md
+130 silly gunzTarPerm extractEntry exercises/partial_application_without_bind/solution/solution.js
+131 silly gunzTarPerm extractEntry exercises/prototypical_inheritance_by_hand/exercise.js
+132 silly gunzTarPerm extractEntry exercises/prototypical_inheritance_by_hand/problem.md
+133 silly gunzTarPerm extractEntry exercises/prototypical_inheritance_by_hand/solution/solution.js
+134 silly gunzTarPerm extractEntry exercises/async_loops/exercise.js
+135 silly gunzTarPerm extractEntry exercises/async_loops/problem.fr.md
+136 silly gunzTarPerm extractEntry exercises/async_loops/problem.ko.md
+137 silly gunzTarPerm extractEntry exercises/async_loops/problem.md
+138 silly gunzTarPerm extractEntry exercises/async_loops/solution/solution.js
+139 silly gunzTarPerm extractEntry exercises/recursion/exercise.js
+140 silly gunzTarPerm extractEntry exercises/recursion/problem.fr.md
+141 silly gunzTarPerm extractEntry exercises/recursion/problem.ko.md
+142 silly gunzTarPerm extractEntry exercises/recursion/problem.md
+143 silly gunzTarPerm extractEntry exercises/recursion/solution/solution.js
+144 silly gunzTarPerm extractEntry exercises/basic_every_some/exercise.js
+145 silly gunzTarPerm extractEntry exercises/basic_every_some/problem.fr.md
+146 silly gunzTarPerm extractEntry exercises/basic_every_some/problem.ko.md
+147 silly gunzTarPerm extractEntry exercises/basic_every_some/problem.md
+148 silly gunzTarPerm extractEntry exercises/basic_every_some/solution/solution.js
+149 silly gunzTarPerm extractEntry exercises/trampoline/exercise.js
+150 silly gunzTarPerm extractEntry exercises/trampoline/problem.fr.md
+151 silly gunzTarPerm extractEntry exercises/trampoline/problem.ko.md
+152 silly gunzTarPerm extractEntry exercises/trampoline/problem.md
+153 silly gunzTarPerm extractEntry exercises/trampoline/solution/solution.js
+154 silly gunzTarPerm extractEntry i18n/en.json
+155 silly gunzTarPerm extractEntry i18n/fr.json
+156 silly gunzTarPerm extractEntry i18n/ko.json
+157 silly gunzTarPerm extractEntry Readme.md
+158 silly gunzTarPerm extractEntry logo.png
+159 silly lockFile 77223de0-56919-0-6151421105023474-package tar:///home/jrt/tmp/npm-28597-xSjMU-2u/1449058656919-0.6151421105023474/package
+160 silly lockFile 77223de0-56919-0-6151421105023474-package tar:///home/jrt/tmp/npm-28597-xSjMU-2u/1449058656919-0.6151421105023474/package
+161 silly lockFile 83ecb8ac-56919-0-6151421105023474-tmp-tgz tar:///home/jrt/tmp/npm-28597-xSjMU-2u/1449058656919-0.6151421105023474/tmp.tgz
+162 silly lockFile 83ecb8ac-56919-0-6151421105023474-tmp-tgz tar:///home/jrt/tmp/npm-28597-xSjMU-2u/1449058656919-0.6151421105023474/tmp.tgz
+163 verbose tar pack [ '/home/jrt/.npm/functional-javascript-workshop/1.0.5/package.tgz',
+163 verbose tar pack   '/home/jrt/tmp/npm-28597-xSjMU-2u/1449058656919-0.6151421105023474/package' ]
+164 verbose tarball /home/jrt/.npm/functional-javascript-workshop/1.0.5/package.tgz
+165 verbose folder /home/jrt/tmp/npm-28597-xSjMU-2u/1449058656919-0.6151421105023474/package
+166 silly lockFile 77223de0-56919-0-6151421105023474-package tar:///home/jrt/tmp/npm-28597-xSjMU-2u/1449058656919-0.6151421105023474/package
+167 verbose lock tar:///home/jrt/tmp/npm-28597-xSjMU-2u/1449058656919-0.6151421105023474/package /home/jrt/.npm/77223de0-56919-0-6151421105023474-package.lock
+168 silly lockFile a07ca1b4-cript-workshop-1-0-5-package-tgz tar:///home/jrt/.npm/functional-javascript-workshop/1.0.5/package.tgz
+169 verbose lock tar:///home/jrt/.npm/functional-javascript-workshop/1.0.5/package.tgz /home/jrt/.npm/a07ca1b4-cript-workshop-1-0-5-package-tgz.lock
+170 silly lockFile 77223de0-56919-0-6151421105023474-package tar:///home/jrt/tmp/npm-28597-xSjMU-2u/1449058656919-0.6151421105023474/package
+171 silly lockFile 77223de0-56919-0-6151421105023474-package tar:///home/jrt/tmp/npm-28597-xSjMU-2u/1449058656919-0.6151421105023474/package
+172 silly lockFile a07ca1b4-cript-workshop-1-0-5-package-tgz tar:///home/jrt/.npm/functional-javascript-workshop/1.0.5/package.tgz
+173 silly lockFile a07ca1b4-cript-workshop-1-0-5-package-tgz tar:///home/jrt/.npm/functional-javascript-workshop/1.0.5/package.tgz
+174 silly lockFile aca7ae15-avascript-workshop-1-0-5-package /home/jrt/.npm/functional-javascript-workshop/1.0.5/package
+175 verbose lock /home/jrt/.npm/functional-javascript-workshop/1.0.5/package /home/jrt/.npm/aca7ae15-avascript-workshop-1-0-5-package.lock
+176 silly lockFile aca7ae15-avascript-workshop-1-0-5-package /home/jrt/.npm/functional-javascript-workshop/1.0.5/package
+177 silly lockFile aca7ae15-avascript-workshop-1-0-5-package /home/jrt/.npm/functional-javascript-workshop/1.0.5/package
+178 verbose tar unpack /home/jrt/.npm/functional-javascript-workshop/1.0.5/package.tgz
+179 silly lockFile 1654f79b-avascript-workshop-1-0-5-package tar:///home/jrt/.npm/functional-javascript-workshop/1.0.5/package
+180 verbose lock tar:///home/jrt/.npm/functional-javascript-workshop/1.0.5/package /home/jrt/.npm/1654f79b-avascript-workshop-1-0-5-package.lock
+181 silly lockFile a07ca1b4-cript-workshop-1-0-5-package-tgz tar:///home/jrt/.npm/functional-javascript-workshop/1.0.5/package.tgz
+182 verbose lock tar:///home/jrt/.npm/functional-javascript-workshop/1.0.5/package.tgz /home/jrt/.npm/a07ca1b4-cript-workshop-1-0-5-package-tgz.lock
+183 silly gunzTarPerm modes [ '755', '644' ]
+184 silly gunzTarPerm extractEntry package.json
+185 silly gunzTarPerm extractEntry .npmignore
+186 silly gunzTarPerm extractEntry functional-javascript.js
+187 silly gunzTarPerm extractEntry input.js
+188 silly gunzTarPerm extractEntry Readme.md
+189 silly gunzTarPerm extractEntry exercises/randomizer.js
+190 silly gunzTarPerm extractEntry exercises/runner.js
+191 silly gunzTarPerm extractEntry exercises/function_spies/exercise.js
+192 silly gunzTarPerm extractEntry exercises/function_spies/problem.fr.md
+193 silly gunzTarPerm extractEntry exercises/function_spies/problem.ko.md
+194 silly gunzTarPerm extractEntry exercises/function_spies/problem.md
+195 silly gunzTarPerm extractEntry exercises/function_spies/solution/solution.js
+196 silly gunzTarPerm extractEntry exercises/function_spies/solution_fr/solution.js
+197 silly gunzTarPerm extractEntry exercises/basic_filter/exercise.js
+198 silly gunzTarPerm extractEntry exercises/basic_filter/problem.fr.md
+199 silly gunzTarPerm extractEntry exercises/basic_filter/problem.ko.md
+200 silly gunzTarPerm extractEntry exercises/basic_filter/problem.md
+201 silly gunzTarPerm extractEntry exercises/basic_filter/solution/solution.js
+202 silly gunzTarPerm extractEntry exercises/basic_inheritance_with_objectcreate/exercise.js
+203 silly gunzTarPerm extractEntry exercises/basic_inheritance_with_objectcreate/problem.md
+204 silly gunzTarPerm extractEntry exercises/basic_inheritance_with_objectcreate/solution/solution.js
+205 silly gunzTarPerm extractEntry exercises/basic_inheritance_without_objectcreate/exercise.js
+206 silly gunzTarPerm extractEntry exercises/basic_inheritance_without_objectcreate/problem.md
+207 silly gunzTarPerm extractEntry exercises/basic_inheritance_without_objectcreate/solution/solution.js
+208 silly gunzTarPerm extractEntry exercises/basic_map/exercise.js
+209 silly gunzTarPerm extractEntry exercises/basic_map/problem.fr.md
+210 silly gunzTarPerm extractEntry exercises/basic_map/problem.ko.md
+211 silly gunzTarPerm extractEntry exercises/basic_map/problem.md
+212 silly gunzTarPerm extractEntry exercises/basic_map/solution/solution.js
+213 silly gunzTarPerm extractEntry exercises/basic_recursion/exercise.js
+214 silly gunzTarPerm extractEntry exercises/basic_recursion/problem.fr.md
+215 silly gunzTarPerm extractEntry exercises/basic_recursion/problem.ko.md
+216 silly gunzTarPerm extractEntry exercises/basic_recursion/problem.md
+217 silly gunzTarPerm extractEntry exercises/basic_recursion/solution/solution.js
+218 silly gunzTarPerm extractEntry exercises/basic_recursion/solution_fr/solution.js
+219 silly gunzTarPerm extractEntry exercises/basic_reduce/exercise.js
+220 silly gunzTarPerm extractEntry exercises/basic_reduce/problem.fr.md
+221 silly gunzTarPerm extractEntry exercises/basic_reduce/problem.ko.md
+222 silly gunzTarPerm extractEntry exercises/basic_reduce/problem.md
+223 silly gunzTarPerm extractEntry exercises/basic_reduce/solution/solution.js
+224 silly gunzTarPerm extractEntry exercises/basic_reduce/solution_fr/solution.js
+225 silly gunzTarPerm extractEntry exercises/blocking_event_loop/exercise.js
+226 silly gunzTarPerm extractEntry exercises/blocking_event_loop/wrapper.js
+227 silly gunzTarPerm extractEntry exercises/blocking_event_loop/wrapper_fr.js
+228 silly gunzTarPerm extractEntry exercises/blocking_event_loop/problem.fr.md
+229 silly gunzTarPerm extractEntry exercises/blocking_event_loop/problem.ko.md
+230 silly gunzTarPerm extractEntry exercises/blocking_event_loop/problem.md
+231 silly gunzTarPerm extractEntry exercises/blocking_event_loop/solution/solution.js
+232 silly gunzTarPerm extractEntry exercises/blocking_event_loop/solution_fr/solution.js
+233 silly gunzTarPerm extractEntry exercises/currying/exercise.js
+234 silly gunzTarPerm extractEntry exercises/currying/problem.fr.md
+235 silly gunzTarPerm extractEntry exercises/currying/problem.ko.md
+236 silly gunzTarPerm extractEntry exercises/currying/problem.md
+237 silly gunzTarPerm extractEntry exercises/currying/solution/solution.js
+238 silly gunzTarPerm extractEntry exercises/currying/solution_fr/solution.js
+239 silly gunzTarPerm extractEntry exercises/function_call/exercise.js
+240 silly gunzTarPerm extractEntry exercises/function_call/problem.fr.md
+241 silly gunzTarPerm extractEntry exercises/function_call/problem.ko.md
+242 silly gunzTarPerm extractEntry exercises/function_call/problem.md
+243 silly gunzTarPerm extractEntry exercises/function_call/solution/solution.js
+244 silly gunzTarPerm extractEntry exercises/function_call/solution_fr/solution.js
+245 silly gunzTarPerm extractEntry exercises/basic_call/exercise.js
+246 silly gunzTarPerm extractEntry exercises/basic_call/problem.fr.md
+247 silly gunzTarPerm extractEntry exercises/basic_call/problem.ko.md
+248 silly gunzTarPerm extractEntry exercises/basic_call/problem.md
+249 silly gunzTarPerm extractEntry exercises/basic_call/solution/solution.js
+250 silly gunzTarPerm extractEntry exercises/hello_world/exercise.js
+251 silly gunzTarPerm extractEntry exercises/hello_world/problem.fr.md
+252 silly gunzTarPerm extractEntry exercises/hello_world/problem.ko.md
+253 silly gunzTarPerm extractEntry exercises/hello_world/problem.md
+254 silly gunzTarPerm extractEntry exercises/hello_world/solution/solution.js
+255 silly gunzTarPerm extractEntry exercises/higher_order_functions/exercise.js
+256 silly gunzTarPerm extractEntry exercises/higher_order_functions/problem.fr.md
+257 silly gunzTarPerm extractEntry exercises/higher_order_functions/problem.ko.md
+258 silly gunzTarPerm extractEntry exercises/higher_order_functions/problem.md
+259 silly gunzTarPerm extractEntry exercises/higher_order_functions/solution/solution.js
+260 silly gunzTarPerm extractEntry exercises/implement_map_with_reduce/exercise.js
+261 silly gunzTarPerm extractEntry exercises/implement_map_with_reduce/problem.fr.md
+262 silly gunzTarPerm extractEntry exercises/implement_map_with_reduce/problem.ko.md
+263 silly gunzTarPerm extractEntry exercises/implement_map_with_reduce/problem.md
+264 silly gunzTarPerm extractEntry exercises/implement_map_with_reduce/solution/solution.js
+265 silly gunzTarPerm extractEntry exercises/menu.json
+266 silly gunzTarPerm extractEntry exercises/partial_application_with_bind/exercise.js
+267 silly gunzTarPerm extractEntry exercises/partial_application_with_bind/wrapper.js
+268 silly gunzTarPerm extractEntry exercises/partial_application_with_bind/problem.fr.md
+269 silly gunzTarPerm extractEntry exercises/partial_application_with_bind/problem.ko.md
+270 silly gunzTarPerm extractEntry exercises/partial_application_with_bind/problem.md
+271 silly gunzTarPerm extractEntry exercises/partial_application_with_bind/solution/solution.js
+272 silly gunzTarPerm extractEntry exercises/partial_application_without_bind/exercise.js
+273 silly gunzTarPerm extractEntry exercises/partial_application_without_bind/wrapper.js
+274 silly gunzTarPerm extractEntry exercises/partial_application_without_bind/problem.fr.md
+275 silly gunzTarPerm extractEntry exercises/partial_application_without_bind/problem.ko.md
+276 silly gunzTarPerm extractEntry exercises/partial_application_without_bind/problem.md
+277 silly gunzTarPerm extractEntry exercises/partial_application_without_bind/solution/solution.js
+278 silly gunzTarPerm extractEntry exercises/prototypical_inheritance_by_hand/exercise.js
+279 silly gunzTarPerm extractEntry exercises/prototypical_inheritance_by_hand/problem.md
+280 silly gunzTarPerm extractEntry exercises/prototypical_inheritance_by_hand/solution/solution.js
+281 silly gunzTarPerm extractEntry exercises/async_loops/exercise.js
+282 silly gunzTarPerm extractEntry exercises/async_loops/problem.fr.md
+283 silly gunzTarPerm extractEntry exercises/async_loops/problem.ko.md
+284 silly gunzTarPerm extractEntry exercises/async_loops/problem.md
+285 silly gunzTarPerm extractEntry exercises/async_loops/solution/solution.js
+286 silly gunzTarPerm extractEntry exercises/recursion/exercise.js
+287 silly gunzTarPerm extractEntry exercises/recursion/problem.fr.md
+288 silly gunzTarPerm extractEntry exercises/recursion/problem.ko.md
+289 silly gunzTarPerm extractEntry exercises/recursion/problem.md
+290 silly gunzTarPerm extractEntry exercises/recursion/solution/solution.js
+291 silly gunzTarPerm extractEntry exercises/basic_every_some/exercise.js
+292 silly gunzTarPerm extractEntry exercises/basic_every_some/problem.fr.md
+293 silly gunzTarPerm extractEntry exercises/basic_every_some/problem.ko.md
+294 silly gunzTarPerm extractEntry exercises/basic_every_some/problem.md
+295 silly gunzTarPerm extractEntry exercises/basic_every_some/solution/solution.js
+296 silly gunzTarPerm extractEntry exercises/trampoline/exercise.js
+297 silly gunzTarPerm extractEntry exercises/trampoline/problem.fr.md
+298 silly gunzTarPerm extractEntry exercises/trampoline/problem.ko.md
+299 silly gunzTarPerm extractEntry exercises/trampoline/problem.md
+300 silly gunzTarPerm extractEntry exercises/trampoline/solution/solution.js
+301 silly gunzTarPerm extractEntry i18n/en.json
+302 silly gunzTarPerm extractEntry i18n/fr.json
+303 silly gunzTarPerm extractEntry i18n/ko.json
+304 silly gunzTarPerm extractEntry logo.png
+305 silly lockFile 1654f79b-avascript-workshop-1-0-5-package tar:///home/jrt/.npm/functional-javascript-workshop/1.0.5/package
+306 silly lockFile 1654f79b-avascript-workshop-1-0-5-package tar:///home/jrt/.npm/functional-javascript-workshop/1.0.5/package
+307 silly lockFile a07ca1b4-cript-workshop-1-0-5-package-tgz tar:///home/jrt/.npm/functional-javascript-workshop/1.0.5/package.tgz
+308 silly lockFile a07ca1b4-cript-workshop-1-0-5-package-tgz tar:///home/jrt/.npm/functional-javascript-workshop/1.0.5/package.tgz
+309 verbose chmod /home/jrt/.npm/functional-javascript-workshop/1.0.5/package.tgz 644
+310 verbose chown /home/jrt/.npm/functional-javascript-workshop/1.0.5/package.tgz [ 1000, 1000 ]
+311 silly lockFile 70455867-al-javascript-workshop-1-0-5-tgz https://registry.npmjs.org/functional-javascript-workshop/-/functional-javascript-workshop-1.0.5.tgz
+312 silly lockFile 70455867-al-javascript-workshop-1-0-5-tgz https://registry.npmjs.org/functional-javascript-workshop/-/functional-javascript-workshop-1.0.5.tgz
+313 silly lockFile c4caac9f-tional-javascript-workshop-1-0-5 functional-javascript-workshop@1.0.5
+314 silly lockFile c4caac9f-tional-javascript-workshop-1-0-5 functional-javascript-workshop@1.0.5
+315 silly lockFile 47ac7295-ional-javascript-workshop-latest functional-javascript-workshop@latest
+316 silly lockFile 47ac7295-ional-javascript-workshop-latest functional-javascript-workshop@latest
+317 silly resolved [ { name: 'functional-javascript-workshop',
+317 silly resolved     version: '1.0.5',
+317 silly resolved     description: 'The basics of functional programming in JavaScript. No libraries required.',
+317 silly resolved     main: 'index.js',
+317 silly resolved     bin:
+317 silly resolved      { 'functional-javascript': 'functional-javascript.js',
+317 silly resolved        'functional-javascript-workshop': 'functional-javascript.js' },
+317 silly resolved     scripts: {},
+317 silly resolved     keywords: [ 'workshopper', 'tutorial', 'lesson' ],
+317 silly resolved     author: { name: 'Tim Oxley' },
+317 silly resolved     license: 'MIT',
+317 silly resolved     dependencies:
+317 silly resolved      { 'deep-eql': '^0.1.3',
+317 silly resolved        'lorem-ipsum': '^1.0.1',
+317 silly resolved        workshopper: '^2.6.0',
+317 silly resolved        'workshopper-exercise': '^2.4.0' },
+317 silly resolved     repository:
+317 silly resolved      { type: 'git',
+317 silly resolved        url: 'https://github.com/timoxley/functional-javascript-workshop' },
+317 silly resolved     bugs: { url: 'https://github.com/timoxley/functional-javascript-workshop/issues' },
+317 silly resolved     homepage: 'https://github.com/timoxley/functional-javascript-workshop',
+317 silly resolved     readme: '# Functional Javascript Workshop\n\n[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/nodeschool/discussions?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)\n<img alt="NodeSchool Discussions" src="https://f.cloud.github.com/assets/43438/1368315/63919ad8-3997-11e3-909e-8193f5a94b59.png" align="right">\n\n### Teaching fundamental functional programming features of Javascript.\n\n#### No libraries required (i.e. no underscore), just ES5.\n\n<a href="https://nodei.co/npm/functional-javascript-workshop/" ><img src="https://nodei.co/npm/functional-javascript-workshop.png?downloads=true&stars=true"><br />\n<img src="https://nodei.co/npm-dl/functional-javascript-workshop.png?months=12">\n</a>\n\n\n\n[![Gittip](http://img.shields.io/gittip/timoxley.png)](https://www.gittip.com/timoxley/)\n## Mission\n\nMany functional programming learning resources will teach you to write functional code, but it\'s often highly indirect,\ndeeply abstracted, requires understanding complex relationships between custom library calls, and doesn\'t represent\nthe reality of how people actually write JavaScript.\n\nThe goal of this workshop is to create realistic problems that can be solved using terse, vanilla, idiomatic JavaScript.\n\n**Please read the exercises thoroughly and obey all conditions, they are there to help you learn!**\n\n## Installation & Update\n\n```\n$ npm install -g functional-javascript-workshop@latest\n```\n\nSome npm installations require use of `sudo` in the above command. Recommend to instead [reinstall node/npm so you don\'t need sudo](https://gist.github.com/isaacs/579814).\n\n## Usage Instructions\n\n#### 1. Selecting a problem to work on\n\nOnce the workshop is installed, run `functional-javascript-workshop` to print a menu\nwhere you can select a problem to work on.\n\n```\n$ functional-javascript-workshop\n```\n\nProblems are listed in rough order of difficulty. You are advised to complete them in order, as later problems\nwill build on skills developed by solving previous problems.\n\n#### 2. Writing your solution\n\nOnce you have selected a problem, the workshop will remember which problem you are working on. \nUsing your preferred editor, simply create a file to write your solution in. Most problems will\nsupply some boilerplate with which to get started. Copy this from the problem description to your\nsolution file.\n\n#### 3. Testing your solution\n\nUse the workshop\'s `run` command to point the workshop at your solution file. Your solution will loaded \nand passed the problem input. This usually won\'t perform any validation, it will only show the program output.\n\n```\n$ functional-javascript-workshop run mysolution.js\n```\n \n#### 4. Verifying your solution\n\nYour solution will be verified against the output of the \'official\' solution. \nIf all of the output matches, then you have successfully solved the problem!\n\n```\n$ functional-javascript-workshop verify mysolution.js\n```\n\n## Stuck?\n\nFeedback and criticism is welcome, please log your troubles in [issues](https://github.com/timoxley/functional-javascript-workshop/issues). \n\nFull curriculum reviews [like this one](https://github.com/timoxley/functional-javascript-workshop/issues/7) are incredibly helpful. More feedback like this please!\n\nWe\'re looking for more practical problems, so if you come across a problem in your day-to-day work which was solved simply and elegantly with some functional JavaScript techniques, please help us create an exercise out of it.\n\n\n## Screenshots\n\n![screen shot 2013-09-27 at 5 18 45 pm](https://f.cloud.github.com/assets/43438/1225514/08c87a70-276a-11e3-8db7-485e3c760373.png)\n![screen shot 2013-09-23 at 9 13 02 pm](https://f.cloud.github.com/assets/43438/1191466/f289f38a-2451-11e3-9ba5-a3c224b5ca97.png)\n\n## Resources\n\n[A growing collection of quality functional javascript resources can be found in the wiki](https://github.com/timoxley/functional-javascript-workshop/wiki). \n\n\n## Thanks rvagg\n\nThis tutorial was built using rvagg\'s [workshopper](https://github.com/rvagg/workshopper) framework.\n\n## Summary\n\n```\n project  : functional-javascript\n repo age : 7 months\n active   : 50 days\n commits  : 152\n files    : 70\n authors  :\n    69\tTim                     45.4%\n    67\tTim Oxley               44.1%\n     3\tSequoia McDowell        2.0%\n     2\tZJ                      1.3%\n     1\tNaor Biton              0.7%\n     1\tPavel Kornilov          0.7%\n     1\tSteve Teo               0.7%\n     1\tWei Lu                  0.7%\n     1\tYoshua Wuyts            0.7%\n     1\tflakyfilibuster         0.7%\n     1\tArvid Andersson         0.7%\n     1\ttim walker              0.7%\n     1\tBrendon Murphy          0.7%\n     1\tLorcan Coyle            0.7%\n     1\tMatthew Hokanson        0.7%\n```\n\n## Licence\n\nMIT\n',
+317 silly resolved     readmeFilename: 'Readme.md',
+317 silly resolved     _id: 'functional-javascript-workshop@1.0.5',
+317 silly resolved     dist: { shasum: 'b33c84437aa16381e4feda6dd73e0cbdf68f7548' },
+317 silly resolved     _from: 'functional-javascript-workshop@latest',
+317 silly resolved     _resolved: 'https://registry.npmjs.org/functional-javascript-workshop/-/functional-javascript-workshop-1.0.5.tgz' } ]
+318 info install functional-javascript-workshop@1.0.5 into /usr/local/lib
+319 info installOne functional-javascript-workshop@1.0.5
+320 info /usr/local/lib/node_modules/functional-javascript-workshop unbuild
+321 verbose tar unpack /home/jrt/.npm/functional-javascript-workshop/1.0.5/package.tgz
+322 silly lockFile 3330b005-s-functional-javascript-workshop tar:///usr/local/lib/node_modules/functional-javascript-workshop
+323 verbose lock tar:///usr/local/lib/node_modules/functional-javascript-workshop /home/jrt/.npm/3330b005-s-functional-javascript-workshop.lock
+324 silly lockFile a07ca1b4-cript-workshop-1-0-5-package-tgz tar:///home/jrt/.npm/functional-javascript-workshop/1.0.5/package.tgz
+325 verbose lock tar:///home/jrt/.npm/functional-javascript-workshop/1.0.5/package.tgz /home/jrt/.npm/a07ca1b4-cript-workshop-1-0-5-package-tgz.lock
+326 silly gunzTarPerm modes [ '755', '644' ]
+327 error Error: EACCES, mkdir '/usr/local/lib/node_modules/functional-javascript-workshop'
+327 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/functional-javascript-workshop']
+327 error   errno: 3,
+327 error   code: 'EACCES',
+327 error   path: '/usr/local/lib/node_modules/functional-javascript-workshop',
+327 error   fstream_type: 'Directory',
+327 error   fstream_path: '/usr/local/lib/node_modules/functional-javascript-workshop',
+327 error   fstream_class: 'DirWriter',
+327 error   fstream_stack:
+327 error    [ '/usr/lib/nodejs/fstream/lib/dir-writer.js:36:23',
+327 error      '/usr/lib/nodejs/mkdirp/index.js:37:53',
+327 error      'Object.oncomplete (fs.js:107:15)' ] }
+328 error Please try running this command again as root/Administrator.
+329 error System Linux 3.13.0-68-generic
+330 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "-g" "functional-javascript-workshop@latest"
+331 error cwd /home/jrt/cuaderno
+332 error node -v v0.10.25
+333 error npm -v 1.3.10
+334 error path /usr/local/lib/node_modules/functional-javascript-workshop
+335 error fstream_path /usr/local/lib/node_modules/functional-javascript-workshop
+336 error fstream_type Directory
+337 error fstream_class DirWriter
+338 error code EACCES
+339 error errno 3
+340 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/functional-javascript-workshop'
+341 error fstream_stack /usr/lib/nodejs/fstream/lib/dir-writer.js:36:23
+341 error fstream_stack /usr/lib/nodejs/mkdirp/index.js:37:53
+341 error fstream_stack Object.oncomplete (fs.js:107:15)
+342 verbose exit [ 3, true ]

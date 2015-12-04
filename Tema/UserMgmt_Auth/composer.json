@@ -1,7 +1,7 @@
 {
     "name": "root/user-mgmt_auth",
     "require": {
-        "phpdocumentor/phpdocumentor": "^2.8"
+        "phpdocumentor/phpdocumentor": "2.*"
     },
     "authors": [
         {
