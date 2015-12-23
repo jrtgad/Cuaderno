@@ -1,0 +1,12 @@
+{
+    "name": "root/user-mgmt_auth",
+    "require": {
+        "phpdocumentor/phpdocumentor": "2.*"
+    },
+    "authors": [
+        {
+            "name": "jrtgad",
+            "email": "jruiztoledog@gmail.com"
+        }
+    ]
+}
